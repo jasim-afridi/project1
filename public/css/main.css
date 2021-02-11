@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Josefin;
+  src: url(../font/JosefinSans-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Josefin;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #0f4f7a;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  padding: .5rem 1rem;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+.hero_img img {
+  width: 350px;
+}
+
+.contact {
+  background: -webkit-gradient(linear, right top, left top, from(#5cc4e5), to(#3735ae));
+  background: linear-gradient(to left, #5cc4e5, #3735ae);
+}
+
+.contact_content .btn-rocket {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.contact_form {
+  padding: 4rem 6rem;
+  border-radius: 100px  5px 5px 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+  padding: 8rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(#5cc4e5), to(#9225e9));
+  background: linear-gradient(to right, #5cc4e5, #9225e9);
+}
+
+.login_form {
+  position: relative;
+}
+
+.login_form .close_model {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.login_form .close_model a {
+  cursor: pointer;
+  color: #262626;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.login_form .close_model a:hover {
+  color: red;
+}
+
+.login_form .form_group {
+  position: relative;
+}
+
+.login_form .form_group .eye {
+  position: absolute;
+  right: 15px;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  color: gray;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.login_form .form_group .eye.active {
+  color: green;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.login_form .form_group .forget_btn {
+  font-size: 14px;
+}
+
+.login_form .submit button {
+  padding: .4rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(#5cc4e5), to(#9225e9));
+  background: linear-gradient(to right, #5cc4e5, #9225e9);
+  border: none;
+  color: #ffffff;
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */

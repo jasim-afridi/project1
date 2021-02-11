@@ -1,0 +1,113 @@
+@font-face{
+    font-family: Josefin;
+    src: url(../font/JosefinSans-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+$filterNav : #0f4f7a;
+body{
+    font-family: Josefin;
+    background:  #ffffff;
+    overflow-x: hidden;
+}
+header{
+    background-color: $filterNav;
+
+
+    .navbar {
+        &-nav{
+            .nav-item{
+                .nav-link{
+                    padding: .5rem 1rem;
+                }
+            }
+        }
+    }
+}
+section{
+    padding: 6rem 0;
+}
+.hero{
+
+    &_img{
+        img{
+            width: 350px;
+        }
+    }
+}
+
+.contact{
+ 
+    background: linear-gradient(to left,#5cc4e5,#3735ae);
+    &_content{
+        .btn-rocket{
+            font-size: 3rem;
+            color: #ffffff;
+        }
+    }
+    &_form{
+       padding: 4rem 6rem;
+      border-radius: 100px  5px 5px 5px;
+      box-shadow:  0 0 10px rgba(0,0,0,0.2);
+    
+    }
+}
+
+
+.login{
+    padding: 8rem 0;
+background: linear-gradient(to right,#5cc4e5,#9225e9);
+
+    &_form{
+        position: relative;
+        .close_model{
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            a{
+                cursor: pointer;
+                color: #262626;
+                transition: color 0.3s;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .form_group{
+            position: relative;
+            .eye{
+                position: absolute;
+                right: 15px;
+                top: 55%;
+                transform: translateY(-50%);
+                cursor: pointer;
+                color: gray;
+                transition: color 0.3s;
+            }
+            .eye.active{
+                color: green;
+                transition: color 0.3s;
+            }
+            .forget_btn{
+                 font-size: 14px;
+            }
+        }
+        .submit{
+            button{
+                padding: .4rem 0;
+                background: linear-gradient(to right,#5cc4e5,#9225e9);
+                border: none;
+                color: #ffffff;
+                outline: none;
+            }
+        }
+    }
+}
